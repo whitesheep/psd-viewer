@@ -1,16 +1,17 @@
 {
-  "name": "psd-extract",
-  "main": "./lib/psd-extract",
-  "version": "0.1.1",
+  "name": "psd-viewer",
+  "main": "./lib/psd-viewer",
+  "version": "0.0.1-develop",
   "description": "Atom package which helps to extract information from .psd files.",
-  "keywords": [
-  ],
-  "repository": "https://github.com/GomatoX/psd-extract",
+  "keywords": [],
+  "repository": "https://github.com/whitesheep/psd-viewer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-      "psd": "^3.1.0"
+    "etch": "^0.12.0",
+    "fs-plus": "^3.0.0",
+    "psd": "^3.1.0"
   }
 }
