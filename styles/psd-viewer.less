@@ -232,17 +232,15 @@
 /**
  * REFACTORING CSS
  */
- @import "ui-variables";
- @import "progress";
- @import "buttons";
-
+@import "ui-variables";
+@import "progress";
+@import "buttons";
 /**
  * Main div
  */
 .psdViewer {
   width: auto;
   overflow: hidden;
-
   /**
    * Container img & objects
    */
@@ -252,10 +250,14 @@
     width: calc(~"100% - 300px");
     float: left;
     overflow: hidden;
+
     .psdImage {
       max-width: 100%;
     }
 
+    .psdZoomable {
+      cursor: move;
+    }
     /**
      * psd objects
      */
@@ -279,5 +281,16 @@
   .psdControls {
     float: right;
     width: 300px;
+  }
+
+  .objectOver {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    color: #efefef;
+    background-color: #222d32;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    border-radius: 2px;
   }
 }
