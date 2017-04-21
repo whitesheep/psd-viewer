@@ -1,7 +1,7 @@
 {
   "name": "psd-viewer",
   "main": "./lib/psd-viewer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Atom package which helps to extract information from .psd files.",
   "keywords": [],
   "repository": "https://github.com/whitesheep/psd-viewer",
