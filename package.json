@@ -9,6 +9,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "consumedServices": {
+    "atom.file-icons": {
+      "versions": {
+        "1.0.0": "consumeFileIcons"
+      }
+    }
+  },
   "dependencies": {
     "draggabilly": "^2.1.1",
     "etch": "^0.12.0",
